@@ -1,0 +1,607 @@
+
+body{
+  font-family: "Poppins", sans-serif;;
+}
+a{
+    text-decoration: none;
+    
+}
+ul li{
+    list-style: none;
+}
+.container{
+    padding: 0;
+    max-width: 1175px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* **************************Header Section********************* */
+.header {
+    background: #f9f9f9;
+    padding: 0;
+}
+.header .headder-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header .headder-navbar .nav {
+    display: flex;
+}
+.header .headder-navbar .nav ul {
+    display: flex;
+}
+.header .headder-navbar .nav ul li a{
+    margin-right: 35px;
+    color: #242f51;
+}
+.header .headder-navbar .nav .nav-btn{
+    margin-left: 55px;
+    padding-top: 15px;
+}
+.header .headder-navbar .nav .nav-btn a{
+    color: white;
+    border: 2px solid rgb(61, 61, 236);
+    padding: 17px 40px;
+    border-radius:40px;
+    background: rgb(76, 76, 219);
+    font-weight: 900;
+   
+}
+.header .headder-navbar .nav .nav-btn a:hover{
+    background: #fc6982;
+    border: 2px solid #fc6982;
+    transition: 0.4s;
+}
+
+/* ********************banner*********** */
+.banner {
+    background: url(../img/banner.png);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:  #f9f9f9; 
+    padding-bottom: 100px;
+}
+.banner .banner-parrents{
+    display: flex;
+    justify-content: space-between;
+    /* height: 850px; */
+    
+}
+.banner .banner-parrents .banner-content {
+    padding-top: 180px;
+    padding-left: 80px;
+
+}
+.banner .banner-parrents .banner-content span{
+    position: relative;
+    right: 45px;
+}
+.banner .banner-parrents .banner-content i.fa-solid.fa-circle-check {
+    color: white;
+    background: #feaa25;
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid #feaa25;
+    font-size: 18px;
+    position: relative;
+    left: 45px;
+    top: 2px;
+}
+.banner .banner-parrents .banner-content h4 {
+    background: #e2eaed;
+    display: inline-block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 85px;
+   padding-left: 50px;
+   border-radius: 45px ;
+}
+.banner .banner-parrents .banner-content h1 {
+    font-size: 60px;
+    position: relative;
+    bottom: 43px;
+    color: #242f51;
+}
+.banner .banner-parrents .banner-content p{
+    color: #242f51;
+    position: relative;
+    bottom: 50px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.banner .banner-parrents .banner-content .banner-btn a{
+   
+    border: 2px solid rgb(61, 61, 236);
+    padding: 10px 25px;
+    border-radius:40px;
+    background: rgb(61, 61, 236);
+    color: #ffffff;
+}
+.banner .banner-parrents .banner-content .banner-btn .btn{
+
+    margin-left: 30px;
+}
+    
+
+.banner .banner-parrents .banner-content .banner-btn a:hover{
+    color: White;
+    background: #fc6982;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 2px solid #fc6982;
+    transition: 0.4s;
+
+    
+}
+
+/* ****************************Company Section************************************ */
+.company {
+padding-bottom: 50px;
+text-align: center;
+color: 242f51;
+}
+.company  .company-parrents{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+/* ****************Awsome App Section******************* */
+.awsome-app{
+    padding: 100px 0;
+    
+}
+.awsome-app .awsome-app-parrents{
+    display: flex;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #242f51;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #616368;
+
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .performance,.prototyping,.vector{
+    display: flex;
+    justify-content: space-between;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .performance img {
+    background: #ffecef;
+    padding: 10px;
+    border-radius: 40px;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .performance h3{
+    color: #f9495b;
+    font-size: 18px;
+    font-weight: 600;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .prototyping img {
+    background: #f4f4f5;
+    padding: 10px;
+    border-radius: 40px;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .prototyping h3{
+    color: #2563ff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .vector img {
+    background: #e4ffee;
+    padding: 10px;
+    border-radius: 40px;
+}
+.awsome-app .awsome-app-parrents .awsome-app-content .vector h3{
+    color: #40975f;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* ************* smart jackpot section*********************  */
+.smart-jackpot{
+  padding-bottom: 100px;
+
+}
+.smart-jackpot .smart-jackpot-parrents {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+} 
+.smart-jackpot .smart-jackpot-parrents h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #666e83;
+    position: relative;
+    right: 175px;
+}
+.smart-jackpot .smart-jackpot-parrents p{
+
+    position: relative;
+    left: 50px;
+    color:#616368 ;
+}
+.smart-jackpot .smart-jackpot-parrents .vl{
+    height: 100px;
+    border: 1px solid #b9b9b8;
+
+}
+
+/* *****************Card Section**************** */
+.card{
+    padding: 150px 0;
+}
+.card .card-parrents{
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-parrents .automatic h3{
+    color: #f55767;
+}
+.card .card-parrents .automatic img{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ffecef;
+}
+.card .card-parrents .automatic{
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+.card .card-parrents .automatic:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.card .card-parrents .network h3{
+    color: #2563ff;
+}
+.card .card-parrents .network img{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #f4f4ff;
+}
+.card .card-parrents .network{
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+.card .card-parrents .network:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.card .card-parrents .badge h3{
+    color: #40975f;
+}
+.card .card-parrents .badge img{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #f4f4ff;
+}
+.card .card-parrents .badge{
+    padding: 5px 10px;
+    transition: 0.4s;
+}
+.card .card-parrents .badge:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.card .card-parrents p{
+    color: #888a8d;
+    line-height: 25px;
+}
+
+/* *************Design Section--------------------- */
+.design{
+
+   
+}
+.design .design-parrents {
+    display: flex;
+    /* justify-content: space-around; */
+}
+.design .design-parrents .pic img.upper {
+    position: absolute;
+    left: 80px;
+}
+.design .design-parrents .content {
+    padding-top: 80px;
+}
+.design .design-parrents .content h2 {
+    font-size: 36px;
+    color: #242f51;
+}
+.design .design-parrents .content p {
+    color: #616368;
+    line-height: 25px;
+}
+.design .design-parrents .content .design-btn{
+    padding-top: 40px;
+}
+.design .design-parrents .content .design-btn a{
+    border: 2px solid #2500f9;
+    background-color: #2500f9;
+    color: white;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.design .design-parrents .content .design-btn a:hover{
+    background: #fc6982;
+    color: White;
+    transition: 0.4s;
+    border: 2px solid #fc6982;
+}
+
+/* ******************Why Choose Section************************ */
+.why-choose {
+    padding: 140px 0;
+}
+.why-choose .why-choose-parrents {
+    text-align: center;
+
+}
+.why-choose .why-choose-parrents h1{
+    font-size: 36px;
+    color: #666e83;
+    font-weight: 700;
+}
+.why-choose .why-choose-parrents p{
+ font-size: 16px;
+ color: #616368;
+ line-height: 25px;
+}
+.why-choose .why-choose-parrents .choose-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .app{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .app:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .app img{
+    background: #ffecef;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .app h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .app p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .trophy{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .trophy:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .trophy img{
+    background: #eaf9ff;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .trophy h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .trophy p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+
+.why-choose .why-choose-parrents .choose-card .cloud{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .cloud:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .cloud img{
+    background: #fff6d3;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .cloud h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .cloud p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+
+.why-choose .why-choose-parrents .choose-card .customaization{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .customaization:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .customaization img{
+    background: #e4ffee;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .customaization h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .customaization p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+
+.why-choose .why-choose-parrents .choose-card .ux{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .ux:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .ux img{
+    background: #f4f4ff;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .ux h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .ux p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+
+.why-choose .why-choose-parrents .choose-card .customoer{
+    text-align: center;
+    transition: 0.4s;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.why-choose .why-choose-parrents .choose-card .customoer:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.why-choose .why-choose-parrents .choose-card .customoer img{
+    background: #fdeee4;
+    padding: 10px;
+    border-radius: 25px;
+}
+.why-choose .why-choose-parrents .choose-card .customoer h3{
+    font-size: 20px;
+    color: #242f51;
+}
+.why-choose .why-choose-parrents .choose-card .customoer p{
+    font-size: 16px;
+    color: #666e83;
+    line-height: 25px;
+}
+
+/* ********************** Section-features ************************** */
+.features{
+    padding-bottom: 100px;
+}
+
+.features .features-parrents {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.features .features-parrents h2{
+    font-size: 36px;
+    color: #666e83;
+}
+.features .features-parrents p{
+    font-size: 16px;
+    color: #616368;
+}
+
+.features .features-parrents .features-img{
+    background: url(../img/fetures-bg.png);
+    background-repeat: no-repeat;
+    width: 700px;
+}
+.features .features-parrents .features-content .inner-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 45px;
+    column-gap: 45px;
+}
+.features .features-parrents .features-content .inner-content p{
+    line-height: 25px;
+}
+.features .features-parrents .features-content .inner-content .app img{
+    background: #ffecef;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.features .features-parrents .features-content .inner-content .cloud img{
+    background: #fff6d3;
+    padding: 10px;
+    border-radius: 25px;
+}
+.features .features-parrents .features-content .inner-content .customaization img{
+    background: #e4ffee;
+    padding: 10px;
+    border-radius: 25px;
+}
+.features .features-parrents .features-content .inner-content .customoer img{
+    background: #fdeee4;
+    padding: 10px;
+    border-radius: 25px;
+}
+.features .features-parrents .features-content .inner-content .content-btn{
+    padding: 20px 0;
+}
+.features .features-parrents .features-content .inner-content .content-btn a {
+    border: 2px solid blue;
+    background: blue;
+    padding: 20px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.7s;
+}
+.features .features-parrents .features-content .inner-content .content-btn a:hover{
+    background: #fc6982;
+    border: 2px solid #fc6982;
+    transition: 0.7s;
+}
+
+/* *************************pricing section********************************** */
+.pricing {
+    padding-bottom: 200px;
+}
+.pricing .pricing-parrents .pricing-content{
+    text-align: center;
+}
+.pricing .pricing-parrents .pricing-content .pricing-btn {
+    padding: 2px;
+    color: #898a8e;
+    border: 2px solid #ebebeb;
+    border-radius: 40px;
+}
